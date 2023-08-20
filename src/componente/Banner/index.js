@@ -1,5 +1,5 @@
 import style from './Banner.module.css';
-import circuloColorido from 'assets/circulo_colorido.png'
+import circuloColorido from 'assets/circulo_tech.png'
 import minhaFoto from 'assets/minha_foto.png'
 
 export default function Banner() {
@@ -11,7 +11,8 @@ export default function Banner() {
         </h1>
 
         <p className={style.paragrafo}>
-          Então é isso, finalizamos o banner, e na próxima aula já vamos finalizar a primeira página mesmo, então vamos mostrar essa parte que mostra alguns cards que são os posts do nosso “Olá, Mundo!”, então te espero lá.
+          Bem vindo ao meu espaço pessoal! Eu sou Pedro Augusto,
+          desenvolvedor Web Full Stak. Aqui compartilho vários conhecimentos de algumas tecnologias.
         </p>
 
 

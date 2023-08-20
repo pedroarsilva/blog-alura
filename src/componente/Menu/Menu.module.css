@@ -6,10 +6,18 @@
   column-gap: 3rem;
 }
 
+.navegacao > .logo {
+  position: absolute;
+  left: 0;
+  margin-left: 5rem;
+  top: -0.3;
+  width: 18vw;
+  border-radius: 50%;
+}
 
 
 @media (max-width: 744px) {
-  .navegacao {
+  .navegacao, .logo {
       height: 72px;
   }
 }
