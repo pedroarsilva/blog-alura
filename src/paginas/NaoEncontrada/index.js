@@ -1,6 +1,6 @@
 import BotaoPrincipal from 'componente/BotaoPrincipal';
 import style from './NaoEncontrada.module.css';
-import erro404 from 'assets/erro_404.png';
+import erro404 from 'assets/page_not_found.png';
 import { useNavigate } from 'react-router-dom';
 
 export default function NaoEncontrada() {

@@ -1,6 +1,10 @@
 .banner {
   padding: 3rem 7.5rem 6.25rem;
   background-color: var(--azul-escuro);
+  background-image: url("assets/badge.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 160px, cover;
   color: var(--branco);
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -100,5 +104,12 @@
   .imagens > .circuloColorido {
       width: 240px;
       transform: translate(-1.5rem, 0px);
+  }
+
+  @media (max-width: 425px) {
+    .banner{
+      background-image: none;
+    }
+    
   }
 }
